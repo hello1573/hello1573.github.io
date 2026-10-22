@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f7f8f2">
+  <meta name="description" content="Mengxi LI（hello1573）的个人项目主页：使用 Python 探索地形数据处理、山脊与山谷线提取，以及科研文献整理自动化。">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="zh_CN">
+  <meta property="og:title" content="hello1573 · Python 与地形探索">
+  <meta property="og:description" content="把研究中的问题，变成可用的工具。探索 Python、地形分析与科研自动化项目。">
+  <meta property="og:url" content="https://hello1573.github.io/">
+  <link rel="canonical" href="https://hello1573.github.io/">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <title>hello1573 · Python 与地形探索</title>
+</head>
+<body>
+  <a class="skip-link" href="#main">跳到主要内容</a>
+  <header class="header wrap">
+    <a class="brand" href="#" aria-label="hello1573 首页"><span class="brand-mark" aria-hidden="true">h<span>.</span></span><span>hello1573</span></a>
+    <nav aria-label="主导航">
+      <a href="#projects">项目</a>
+      <a href="#about">关于</a>
+      <a class="nav-github" href="https://github.com/hello1573" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">↗</span></a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero wrap" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="status-dot" aria-hidden="true"></span> PYTHON · TERRAIN · OPEN SOURCE</p>
+        <h1 id="hero-title">把研究中的问题，<br>变成<span class="accent">可用的工具。</span></h1>
+        <p class="intro">你好，我是 <strong>Mengxi LI</strong>，也叫 <strong>hello1573</strong>。<br>我用 Python 探索地形数据处理与科研自动化，<br class="desktop-break">在这里记录项目、代码与实践。</p>
+        <div class="hero-actions">
+          <a class="button primary" href="#projects">浏览我的项目 <span aria-hidden="true">↓</span></a>
+          <a class="text-link" href="https://github.com/hello1573" target="_blank" rel="noopener noreferrer">GitHub 主页 <span aria-hidden="true">↗</span></a>
+        </div>
+        <div class="hero-tags" aria-label="关注方向"><span>Python 开发</span><span>地形分析</span><span>科研工具</span></div>
+      </div>
+
+      <div class="terrain-card" aria-hidden="true">
+        <div class="terrain-top"><span>FIELD NOTES / 001</span><span class="terrain-plus">+</span></div>
+        <svg class="contours" viewBox="0 0 500 480" fill="none">
+          <defs>
+            <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" stroke="#b5cfc0" stroke-opacity=".08"/></pattern>
+          </defs>
+          <path fill="url(#grid)" d="M0 0h500v480H0z"/>
+          <g stroke="#9dc4a6" stroke-width="1.2">
+            <path opacity=".22" d="M-48 253C-8 122 86 136 151 86S272-35 385 22s183 179 153 299-142 191-245 155S-98 420-48 253Z"/>
+            <path opacity=".27" d="M-21 253C13 141 95 155 164 106S278-7 371 43s157 160 132 266-127 168-219 137S-65 396-21 253Z"/>
+            <path opacity=".32" d="M6 252C35 160 105 174 177 126S283 21 357 64s133 141 112 233-112 145-193 119S-32 373 6 252Z"/>
+            <path opacity=".37" d="M33 252C57 179 114 194 190 146S289 49 343 85s108 122 91 200-98 122-168 101S0 349 33 252Z"/>
+            <path opacity=".42" d="M60 251C79 198 124 213 203 166S294 77 329 106s84 104 70 167-83 99-142 83S33 325 60 251Z"/>
+            <path opacity=".52" d="M87 251C102 217 133 232 216 186S299 105 315 127s60 85 46 134-67 76-115 65S65 302 87 251Z"/>
+            <path opacity=".65" d="M117 251C132 234 160 249 226 211S289 151 308 157s37 56 21 91-45 52-82 48S102 278 117 251Z"/>
+            <path opacity=".78" d="M155 256C177 250 197 252 234 233s49-44 65-43 17 31 2 51-36 28-62 27-103-7-84-12Z"/>
+            <path opacity=".85" d="M212 252C230 246 243 243 256 232s26-22 31-18-1 19-13 28-33 13-62 10Z"/>
+          </g>
+          <path d="M280 118V313M182 222H378" stroke="#c8dbb3" stroke-opacity=".25" stroke-dasharray="4 6"/>
+          <circle cx="280" cy="222" r="20" stroke="#d2f0b0" stroke-opacity=".25"/>
+          <circle cx="280" cy="222" r="9" stroke="#d2f0b0" stroke-opacity=".65"/>
+          <circle cx="280" cy="222" r="3.5" fill="#d2f0b0"/>
+          <path d="M37 119V100H56M444 366H463V347" stroke="#c8dbb3" stroke-opacity=".5"/>
+        </svg>
+        <div class="terrain-bottom"><span class="mono">EXPLORE. BUILD. ITERATE.</span><p>地形、数据，<br>以及它们背后的代码。</p><span class="terrain-caption">保持好奇，把想法写下来。</span></div>
+      </div>
+    </section>
+
+    <section class="projects wrap section" id="projects" aria-labelledby="projects-title">
+      <div class="section-heading">
+        <div><p class="eyebrow section-label">01 / SELECTED PROJECTS</p><h2 id="projects-title">从问题出发的项目。</h2></div>
+        <a class="text-link all-projects" href="https://github.com/hello1573?tab=repositories" target="_blank" rel="noopener noreferrer">全部仓库 <span aria-hidden="true">↗</span></a>
+      </div>
+      <div class="project-grid">
+        <article class="project-card paper-project">
+          <div class="project-top"><span class="project-icon" aria-hidden="true"><svg viewBox="0 0 32 32" fill="none"><path d="M9 5h11l5 5v17H9zM20 5v6h5M13 16h8M13 21h5" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/><path d="M5 9v18" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg></span><span class="repo-label">RESEARCH AUTOMATION</span><span class="project-number">01</span></div>
+          <p class="repo-name">Search-for-papers</p>
+          <h3>论文检索与日报</h3>
+          <p class="project-description">围绕稀疏地形重建与 DEM 修复，整理相关论文、排除重复文献，并通过 GitHub 工作流发布中文日报，让持续跟踪研究进展更有条理。</p>
+          <ul class="tags" aria-label="项目技术与主题"><li>Python</li><li>GitHub Actions</li><li>文献整理</li></ul>
+          <div class="project-footer"><span>检索 · 去重 · 归档</span><a href="https://github.com/hello1573/Search-for-papers" target="_blank" rel="noopener noreferrer" aria-label="在 GitHub 查看论文检索与日报项目">查看项目 <span aria-hidden="true">↗</span></a></div>
+        </article>
+        <article class="project-card ridge-project">
+          <div class="project-top"><span class="project-icon" aria-hidden="true"><svg viewBox="0 0 32 32" fill="none"><path d="m3 25 10-17 7 11 3-5 6 11H3Z" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/><path d="m9 15 4 2 3-3M18 22l2-3" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg></span><span class="repo-label">GEOSPATIAL EXPLORATION</span><span class="project-number">02</span></div>
+          <p class="repo-name">shanji</p>
+          <h3>山脊与山谷线提取</h3>
+          <p class="project-description">从 LAS / LAZ 点云出发，生成地形开度图，提取连续山脊线与山谷线，再将线位置映射回点云。支持批量处理与配置文件调参。</p>
+          <ul class="tags" aria-label="项目技术与主题"><li>Python</li><li>Rasterio</li><li>点云处理</li></ul>
+          <div class="project-footer"><span>点云 · 地形 · 特征线</span><a href="https://github.com/hello1573/shanji" target="_blank" rel="noopener noreferrer" aria-label="在 GitHub 查看山脊与山谷线提取项目">查看项目 <span aria-hidden="true">↗</span></a></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="about wrap section" id="about" aria-labelledby="about-title">
+      <div class="about-intro"><p class="eyebrow section-label">02 / A LITTLE ABOUT ME</p><h2 id="about-title">在代码与地形之间，<br>继续探索。</h2><p>我的公开项目聚焦 Python、地形数据处理与科研文献整理。我喜欢从具体问题出发，把重复步骤整理成脚本，让想法有一个可以运行、可以改进的版本。</p><a class="text-link" href="https://github.com/hello1573" target="_blank" rel="noopener noreferrer">在 GitHub 了解更多 <span aria-hidden="true">↗</span></a></div>
+      <dl class="focus-list">
+        <div><dt><span aria-hidden="true">01</span>Python 实践</dt><dd>用脚本连接数据、处理流程和日常任务。</dd></div>
+        <div><dt><span aria-hidden="true">02</span>地形与点云</dt><dd>探索 DEM、地形特征线与空间数据处理。</dd></div>
+        <div><dt><span aria-hidden="true">03</span>科研自动化</dt><dd>把文献检索、去重和归档组织成可重复的流程。</dd></div>
+      </dl>
+    </section>
+
+    <section class="contact wrap" aria-labelledby="contact-title"><div><p class="eyebrow">KEEP IN TOUCH</p><h2 id="contact-title">让交流从一段代码开始。</h2><p>欢迎浏览源码，或在相关项目的 Issues 中交流想法。</p></div><a class="button primary" href="https://github.com/hello1573" target="_blank" rel="noopener noreferrer">访问我的 GitHub <span aria-hidden="true">↗</span></a></section>
+  </main>
+  <footer class="footer wrap"><span>© 2026 Mengxi LI · hello1573</span><span>用代码记录探索 <span class="footer-dot" aria-hidden="true">·</span> GitHub Pages</span><a href="#">回到顶部 <span aria-hidden="true">↑</span></a></footer>
+</body>
+</html>
